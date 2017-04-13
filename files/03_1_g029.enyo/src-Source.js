@@ -195,8 +195,8 @@ Source.execute = function (action, model, opts) {
 		msg,
 		ret;
 
-	if (source) {
 
+	if (source) {
 		// if explicitly set to true then we need to use all available sources in the
 		// application
 		if (source === true) {
