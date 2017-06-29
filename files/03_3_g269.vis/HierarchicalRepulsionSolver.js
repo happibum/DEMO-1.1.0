@@ -48,6 +48,7 @@ class HierarchicalRepulsionSolver {
           // normalize force with
           if (distance === 0) {
             distance = 0.01;
+            return distance;
           }
           else {
             repulsingForce = repulsingForce / distance;
